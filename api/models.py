@@ -7,7 +7,7 @@ class Club(models.Model):
     image_name = models.CharField(max_length=128)
     is_current = models.BooleanField()
 
-    def __str__(self):
+    def __unicode__(self):
         return self.name
 
 class CalendarItem(models.Model):
@@ -18,7 +18,7 @@ class CalendarItem(models.Model):
     match_date = models.DateTimeField()
     match_type = models.CharField(max_length=1, choices=MATCH_TYPES, default='H')
 
-    def __str__(self):
+    def __unicode__(self):
         return self.home_club.name + ' - ' + self.guest_club.name
 
 class GameResult(models.Model):
@@ -30,12 +30,11 @@ class GameResult(models.Model):
     guest_club = models.ForeignKey(Club, related_name='game_result_guest_clubs')
     guest_goals = models.IntegerField()
 
-    def __str__(self):
+    def __unicode__(self):
         return self.home_club.name + ' - ' + self.guest_club.name
 
 class LeagueTableItem(models.Model):
     season = models.CharField(max_length=2, choices=SEASONS, default='13')
-    position = models.IntegerField()
     wins = models.IntegerField()
     draws = models.IntegerField()
     loses = models.IntegerField()
@@ -44,5 +43,5 @@ class LeagueTableItem(models.Model):
     points = models.IntegerField()
     club = models.ForeignKey(Club)
 
-    def __str__(self):
+    def __unicode__(self):
         return self.club.name
