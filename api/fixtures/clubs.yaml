@@ -1,0 +1,90 @@
+- model: api.Club
+  pk: 1
+  fields:
+    name: 'Rijeka'
+    image_name: 'rijeka.png'
+    is_current: True
+
+- model: api.Club
+  pk: 2
+  fields:
+    name: 'Hajduk'
+    image_name: 'hajduk.png'
+    is_current: True
+
+- model: api.Club
+  pk: 3
+  fields:
+    name: 'Osijek'
+    image_name: 'osijek.png'
+    is_current: True
+
+- model: api.Club
+  pk: 4
+  fields:
+    name: 'Zadar'
+    image_name: 'zadar.png'
+    is_current: True
+
+- model: api.Club
+  pk: 5
+  fields:
+    name: 'H.Dragovoljac'
+    image_name: 'hrvatski_dragovoljac.png'
+    is_current: True
+
+- model: api.Club
+  pk: 6
+  fields:
+    name: 'Slaven Belupo'
+    image_name: 'slaven_belupo.png'
+    is_current: True
+
+- model: api.Club
+  pk: 7
+  fields:
+    name: 'Lokomotiva'
+    image_name: 'lokomotiva.png'
+    is_current: True
+
+- model: api.Club
+  pk: 8
+  fields:
+    name: 'Istra 1961'
+    image_name: 'istra_1961'
+    is_current: True
+
+- model: api.Club
+  pk: 9
+  fields:
+    name: 'Split'
+    image_name: 'split.png'
+    is_current: True
+
+- model: api.Club
+  pk: 10
+  fields:
+    name: 'Dinamo'
+    image_name: 'dinamo.png'
+    is_current: True
+
+- model: api.Club
+  pk: 11
+  fields:
+    name: 'Betis'
+    image_name: 'betis.png'
+    is_current: True
+
+- model: api.Club
+  pk: 12
+  fields:
+    name: 'Lyon'
+    image_name: 'lyon.png'
+    is_current: True
+
+- model: api.Club
+  pk: 13
+  fields:
+    name: 'Vitoria'
+    image_name: 'vitoria.png'
+    is_current: True
