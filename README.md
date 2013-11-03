@@ -10,11 +10,12 @@
 
 ## Fixtures
 
-YAML is used for fixtures to run it properly install _lib yaml__:
+YAML is used for fixtures to run it properly install _YAML_:
 
-Mac:
+**Mac**:
 
-brew install libyaml
+    sudo brew install libyaml
 
-Linux/Ubuntu:
-sudo apt-get install python-yaml
+**Linux/Ubuntu**:
+
+    sudo apt-get install python-yaml
